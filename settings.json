@@ -1,0 +1,102 @@
+
+{
+  "editor.semanticHighlighting.enabled": false,
+  "editor.fontSize": 14,
+  // "editor.lineHeight": 25,
+  "editor.fontFamily": "'Menlo','Operator Mono Book', 'Menlo', MesloLGS NF",
+  "editor.tokenColorCustomizations": {},
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.formatOnSaveMode": "file",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "html.format.preserveNewLines": false,
+  "html.format.wrapLineLength": 0,
+  "explorer.confirmDelete": false,
+  "workbench.editor.tabSizing": "shrink",
+  "git.autofetch": true,
+  "emmet.includeLanguages": {
+    "typescriptreact": "typescriptreact",
+    "javascript": "javascriptreact",
+    "php": "html"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.singleQuote": true,
+  "editor.inlineSuggest.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+"explorer.confirmDragAndDrop": false,
+"php.validate.executablePath": "/usr/bin/php",
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "php, html"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontLigatures": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "eq-material-theme-icons",
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<S-l>"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<S-h>"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["<C-b>"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["g", "f"],
+      "commands": ["editor.action.formatDocument"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["revealInExplorer"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "after": ["_"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "after": ["$"]
+    }
+  ],
+  "material-icon-theme.activeIconPack": "nest",
+  "workbench.preferredDarkColorTheme": "Winter is Coming (Dark Blue - No Italics)",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "zenMode.hideTabs": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorSmoothCaretAnimation": false,
+  "editor.cursorBlinking": "blink",
+  "terminal.integrated.fontFamily": "Menlo",
+  "git.confirmSync": false,
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.letterSpacing": 0.2,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "workbench.colorTheme": "Field Lights",
+  "workbench.productIconTheme": "developer-icons",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1
+}
