@@ -1,7 +1,7 @@
-
 {
   "editor.semanticHighlighting.enabled": false,
-  "editor.fontSize": 14,
+  // "editor.fontSize": 15.5,
+  "editor.fontSize": 14.5,
   // "editor.lineHeight": 25,
   "editor.fontFamily": "'Menlo','Operator Mono Book', 'Menlo', MesloLGS NF",
   "editor.tokenColorCustomizations": {},
@@ -28,8 +28,8 @@
   "prettier.singleQuote": true,
   "editor.inlineSuggest.enabled": true,
   "vsicons.dontShowNewVersionMessage": true,
-"explorer.confirmDragAndDrop": false,
-"php.validate.executablePath": "/usr/bin/php",
+  "explorer.confirmDragAndDrop": false,
+  "php.validate.executablePath": "/usr/bin/php",
   "tailwindCSS.includeLanguages": {
     "plaintext": "php, html"
   },
@@ -38,7 +38,7 @@
   },
   "editor.fontLigatures": true,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "workbench.iconTheme": "eq-material-theme-icons",
+  "workbench.iconTheme": "material-icon-theme",
   "vim.leader": "<space>",
   "vim.normalModeKeyBindings": [
     {
@@ -92,11 +92,12 @@
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "editor.letterSpacing": 0.2,
+  // "editor.letterSpacing": 0.2,
+  "editor.letterSpacing": 0,
   "totalTypeScript.hideAllTips": false,
   "totalTypeScript.hideBasicTips": true,
-  "workbench.colorTheme": "Field Lights",
   "workbench.productIconTheme": "developer-icons",
   "security.workspace.trust.untrustedFiles": "open",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast"
 }
